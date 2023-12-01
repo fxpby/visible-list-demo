@@ -1,0 +1,36 @@
+.list-container {
+  width: 360px;
+  height: 500px;
+  margin: 50px auto 0;
+  position: relative;
+  overflow: auto;
+  border-radius: 4px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
+}
+
+.list-height {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.list {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.item {
+  padding: 4px 16px;
+  box-sizing: border-box;
+  color: coral;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.item:hover {
+  cursor: pointer;
+  background-color: #f3f3f3;
+}
